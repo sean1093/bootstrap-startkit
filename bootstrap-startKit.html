@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap Template</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <style type="text/css">
+
+      .class-Blue{
+        background-color: #2196F3;
+        height: 150px
+      }
+
+      .class-Teal{
+        background-color: #009688;
+        height: 150px
+      }
+
+      .class-Red{
+        background-color: #F44336;
+        height: 250px
+      }
+
+      .class-Yellow{
+        background-color: #FFEB3B;
+        height: 50px
+      }
+
+      .class-Purple{
+        background-color: #9C27B0;
+        height: 150px
+      }
+
+      @media (max-width: 400px) {
+        .class-Red{      
+          height: 50px
+        }
+      }
+      @media (min-width: 992px) {
+        .class-Yellow{      
+          height: 200px
+        }
+      }
+ 
+    </style>
+  </head>
+  <body>
+    <h1>Hello, Bootstrap!</h1>
+    <h2>container</h2>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-5 col-sm-6 col-xs-12 class-Blue">A-1</div>
+            <div class="col-md-3 col-sm-3 col-xs-12 class-Red">B-1</div>
+            <div class="col-md-4 col-sm-3 col-xs-12 class-Purple">C-1</div>
+        </div>
+        <div class="row">
+            <div class="col-md-4 col-sm-6 col-xs-12 class-Yellow">A-2</div>
+            <div class="col-md-8 col-sm-6 col-xs-12 class-Teal">B-2</div>
+        </div>
+    </div>
+    <h2>container-fluid</h2>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-5 col-sm-6 col-xs-12 class-Blue">A-1</div>
+            <div class="col-md-3 col-sm-3 col-xs-12 class-Red">B-1</div>
+            <div class="col-md-4 col-sm-3 col-xs-12 class-Purple">C-1</div>
+        </div>
+        <div class="row">
+            <div class="col-md-4 col-sm-6 col-xs-12 class-Yellow">A-2</div>
+            <div class="col-md-8 col-sm-6 col-xs-12 class-Teal">B-2</div>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+  </body>
+</html>
